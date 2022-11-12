@@ -15,5 +15,19 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+    <!--
+        AUTO= ele so vai considerar que o site terminou de carregar depois que carregar  o audio tbm
+        METADATA= so carrega nome do arquivo e algumas informaçoes tipo data duracao
+        NONE= ele nao carrega absolutamente nada, so quando o usuario aperta os controles
+        MP3 WAV OGG
+    -->
+    <audio preload="metadata" controls>
+        <source src="midia/Soulicious-Dyalla.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/Soulicious-Dyalla.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
 </body>
 </html>
