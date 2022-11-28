@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     background-color: #1D1D1D;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
