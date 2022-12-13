@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root { /* Pseudo-classe -- RAIZ DA ARVORE DO NOSSO DOCUMENTO */
+    --cor0: #C5EBD6; /* Variaveis globais */
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: ;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header > H1{
+    color: var(--cor3);
+}
+
+main h1 {
+    color: var(--cor5);
+}
